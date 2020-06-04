@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCDD00"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="dosomething"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:background="#0099CC"
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Website" />
+
+
+    <Button
+        android:onClick="dosomething"
+        android:id="@+id/map"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:background="#0099CC"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Map Location" />
+
+    <Button
+        android:onClick="dosomething"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:background="#0099CC"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email" />
+
+    <Button
+        android:onClick="dosomething"
+        android:id="@+id/imagesend"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Image"
+        android:background="#0099CC"/>
+
+    <Button
+        android:onClick="dosomething"
+        android:id="@+id/messagesend"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:background="#0099CC"/>
+
+    <Button
+        android:onClick="dosomething"
+        android:background="#0099CC"
+        android:id="@+id/phonecall"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call A Number" />
+
+</LinearLayout>

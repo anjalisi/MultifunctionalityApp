@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCDD00">
+
+
+    <TextView
+        android:background="#000000"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:text="Enter Text Message" />
+
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/user_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:hint="Text"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:text="Enter Phone Number" />
+
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/user_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:hint="Mobile"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/msg"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="110dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:onClick="sendingtextss"
+        android:layout_width="match_parent"
+        android:text="MESSAGE"/>
+
+</LinearLayout>

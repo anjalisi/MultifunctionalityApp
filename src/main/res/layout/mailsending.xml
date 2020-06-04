@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCDD00">
+
+    <TextView
+        android:background="#000000"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Mail" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:text="To" />
+
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="abc.123@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:text="Subject" />
+
+    <EditText
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="Application for Leave" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:ems="10"
+        android:padding="5dp"
+        android:inputType="textPersonName"
+        android:hint="Write your Message" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="110dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:text="MAIL" />
+</LinearLayout>

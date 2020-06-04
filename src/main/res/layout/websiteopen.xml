@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCDD00"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:background="#009978"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:text="Enter A URL"
+        android:textColor="#002233"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter URL"
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/openurl"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="110dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:onClick="urlsend"
+        android:text="OPEN " />
+</LinearLayout>
